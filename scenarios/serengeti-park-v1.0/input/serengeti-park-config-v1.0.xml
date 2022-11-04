@@ -2,7 +2,7 @@
 <!DOCTYPE config SYSTEM "http://www.matsim.org/files/dtd/config_v2.dtd">
 <config>
 	<module name="controler" >
-		<param name="lastIteration" value="100" />
+		<param name="lastIteration" value="10" />
 		<param name="overwriteFiles" value="deleteDirectoryIfExists" />
 		<param name="runId" value="serengeti-park-v1.0-run1" />
 		<param name="outputDirectory" value="./scenarios/serengeti-park-v1.0/output/output-serengeti-park-v1.0-run1" />
@@ -20,7 +20,7 @@
 		<param name="inputNetworkFile" value="serengeti-park-network-v1.0.xml.gz" />
 	</module>
 	<module name="plans" >
-		<!-- <param name="inputPlansFile" value="serengeti-park-population-v1.0.xml.gz" />  -->
+		<!-- <param name="inputPlansFile" value="serengeti-park-population-v1.0.xml" />  -->
 		<param name="removingUnnecessaryPlanAttributes" value="true" />
 	</module>
 	<module name="vehicles" >
